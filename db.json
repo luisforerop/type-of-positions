@@ -1,5 +1,7 @@
 {
-  "manager": [
+  "manager": {
+    "description": "Gerente",
+    "data-needed": [
     {
       "type": "text",
       "id": "name",
@@ -15,8 +17,11 @@
       "id": "department",
       "label": "Departamento o área a cargo"
     }
-  ],
-  "developer": [
+  ]
+  },
+  "developer": {
+    "description": "Developer",
+    "data-needed": [
     {
       "type": "text",
       "id": "name",
@@ -52,8 +57,11 @@
       "id": "isFrontendDeveloper",
       "label": "Es desarrollador frontend"
     }
-  ],
-  "tech-lead": [
+  ]
+  },
+  "tech-lead": {
+    "description": "Líder técnico",
+    "data-needed": [
     {
       "type": "text",
       "id": "name",
@@ -69,8 +77,11 @@
       "id": "project",
       "label": "Proyecto asignado"
     }
-  ],
-  "scrum-master": [
+  ]
+  },
+  "scrum-master": {
+    "description": "Scrum master",
+    "data-needed": [
     {
       "type": "text",
       "id": "name",
@@ -92,4 +103,5 @@
       "label": "Nombre del equipo de trabajo"
     }
   ]
+  }
 }

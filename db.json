@@ -1,0 +1,95 @@
+{
+  "manager": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico corporativo"
+    },
+    {
+      "type": "text",
+      "id": "department",
+      "label": "Departamento o área a cargo"
+    }
+  ],
+  "developer": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico corporativo"
+    },
+    {
+      "type": "text",
+      "id": "project",
+      "label": "Proyecto asignado"
+    },
+    {
+      "type": "checkbox",
+      "id": "remote",
+      "label": "Cargo remoto"
+    },
+    {
+      "type": "checkbox",
+      "id": "isFullstack",
+      "label": "Es full stack"
+    },
+    {
+      "type": "checkbox",
+      "id": "isBackendDeveloper",
+      "label": "Es desarrollador backend"
+    },
+    {
+      "type": "checkbox",
+      "id": "isFrontendDeveloper",
+      "label": "Es desarrollador frontend"
+    }
+  ],
+  "tech-lead": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico corporativo"
+    },
+    {
+      "type": "text",
+      "id": "project",
+      "label": "Proyecto asignado"
+    }
+  ],
+  "scrum-master": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico corporativo"
+    },
+    {
+      "type": "text",
+      "id": "project",
+      "label": "Proyecto asignado"
+    },
+    {
+      "type": "text",
+      "id": "team-name",
+      "label": "Nombre del equipo de trabajo"
+    }
+  ]
+}
